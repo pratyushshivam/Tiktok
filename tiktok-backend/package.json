@@ -1,0 +1,21 @@
+{
+  "name": "tiktok-backend",
+  "version": "1.0.0",
+  "description": "Awesome",
+  "main": "data.js",
+  "type":"module",
+  "engines": {
+    "node": ">=6.x.x",
+    "npm": ">=3.9.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pratyush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  }
+}

@@ -1,0 +1,41 @@
+html {
+    scroll-snap-type: y mandatory;
+    /* overflow:hidden; */
+  }
+  
+  
+  .app {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.4)), url('https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: grid;
+    place-items: center;    
+    cursor: pointer;
+  }
+  
+  .app__videos {
+    position: relative;
+    height: 700px;
+    border-radius: 57px;
+    width: 80%;
+    max-width: 460px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    /* border:1px solid red; */
+    box-shadow: 20px 30px 45px 34px rgba(0, 0, 0, 0.75);
+    /* box-shadow-direction:2px 0; */
+    /* box-shadow: 10px 10px 5px #000; */
+  }
+  
+  /* Hide scroll bar Chrome,Safari Opera */
+  .app__videos::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scroll bar IE,Edge and Firefox */
+  .app__videos {
+    -ms-overflow-style: none; /*IE and Edge*/
+    scrollbar-width: none;/*Firefox*/
+  }
